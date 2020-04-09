@@ -1,2 +1,0 @@
-# hackerstories
-Created with CodeSandbox
