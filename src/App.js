@@ -1,11 +1,22 @@
 import React from "react";
-import "./styles.css";
+import "./App.css";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <header className="App-header">
+        <h1>Hacker Stories</h1>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          React
+        </a>
+      </header>
     </div>
   );
 }
+
+export default App;
